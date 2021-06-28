@@ -5,16 +5,17 @@ span:nth-child(3n), span:nth-child(5n) {
 }
 
 span:nth-child(3n):before {
-    font-size: 16px;
+    font-size: 25px;
     content:"Fizz";
 }
 
 span:nth-child(5n):after {
-    font-size: 16px;
+    font-size: 25px;
     content:"Buzz";
 }
 
 h1 {
+    font-size: 50px;
     text-align: center;
     margin-bottom: 5em;
     border: 2px solid black;
@@ -24,16 +25,19 @@ h1 {
 }
 
 p {
+    text-align: justify;
+    font-size: 25px;
     border: 2px solid black;
     padding: 20px;
     background-color: darkblue;
     color: white;
     border-radius: 10px;
+    
 }
 
 footer {
     text-align: center;
-    margin-top: 27%;
+    margin-top: 17%;
     right: 50%;
     background-color: darkblue;
     color: white;
