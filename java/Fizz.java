@@ -1,18 +1,21 @@
 public class Fizz {
 
     public static void main(String[] args) {
+
+        String out = "";
         
         for (int i = 1; i <= 100; i++) {
 
             if (i % 3 == 0 && i % 5 == 0) {
-                System.out.print("FizzBuzz ");
+                out += "FizzBuzz ";
             } else if (i % 3 == 0) {
-                System.out.print("Fizz ");
+                out += "Fizz ";
             } else if (i % 5 == 0) {
-                System.out.print("Buzz ");
+                out += "Buzz ";
             } else {
-                System.out.print(i + " ");
+                out += i + " ";
             }
         }
+        System.out.println(out);
     }
 }
