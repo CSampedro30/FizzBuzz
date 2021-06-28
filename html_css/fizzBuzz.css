@@ -1,0 +1,42 @@
+@import "compass/css3";
+
+span:nth-child(3n), span:nth-child(5n) {
+    font-size: 0px;
+}
+
+span:nth-child(3n):before {
+    font-size: 16px;
+    content:"Fizz";
+}
+
+span:nth-child(5n):after {
+    font-size: 16px;
+    content:"Buzz";
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5em;
+    border: 2px solid black;
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+}
+
+p {
+    border: 2px solid black;
+    padding: 20px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 27%;
+    right: 50%;
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
